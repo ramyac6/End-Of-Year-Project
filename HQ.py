@@ -11,9 +11,6 @@ import re
 question = "Which actor turned down the role of James Bond twice before finally accepting?"
 answers = ["Timothy Dalton", "Roger Moore", "Sean Connery"]
 
-#for char in '-.,\n':
-#    q_terms=q_terms.replace(char,' ')
-#q_terms = q_terms.split()
 print question 
 print answers 
 
@@ -72,7 +69,6 @@ print(max_a_key)
 #All this does is crash the program
 '''
 input("Continue?")
-
 
 if not DEBUG:
     os.rename(file_path, file_path.replace("Screen Shot", "Done"))
